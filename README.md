@@ -4,9 +4,7 @@
 [![CircleCI](https://circleci.com/gh/pabloh/pathway/tree/master.svg?style=shield)](https://circleci.com/gh/pabloh/pathway/tree/master)
 [![Coverage Status](https://coveralls.io/repos/github/pabloh/pathway/badge.svg?branch=master)](https://coveralls.io/github/pabloh/pathway?branch=master)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pathway`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Pathway allows you to encapsulate your app's business logic into operation objects (also known as application services on the DDD lingo).
 
 ## Installation
 
@@ -24,9 +22,37 @@ Or install it yourself as:
 
     $ gem install pathway
 
+## Introduction
+
 ## Usage
 
-TODO: Write usage instructions here
+### Core API and concepts
+
+#### Function objects (`call` methods)
+#### Steps
+##### Succesful
+##### Failed
+#### Operation result
+#### Initialization and context
+#### Execution process state
+#### Result value
+#### Alternative invocation syntaxes and pattern matching DSL
+
+### Plugins
+#### Plugin architecture
+
+#### `SimpleAuth` plugin
+#### `DryValidation` plugin
+#### `SequelModels` plugin
+#### `Responder` plugin
+
+### Testing tools
+#### Rspec config
+#### Rspec matchers
+
+## Best practices
+### Operation object design and organization
+### Testing recomendations
 
 ## Development
 
